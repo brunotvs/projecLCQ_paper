@@ -1,0 +1,29 @@
+Grupo,id,nome,unidade
+Serviços Preliminares,1,Sondagem,count
+Serviços Preliminares,2,"LOCAÇÃO da obra, execução de gabarito - m2",squaremeter
+Instalação do canteiro,3,Instalação provisória de água,count
+Instalação do canteiro,4,Instalação provisória de energia,count
+Instalação do canteiro,5,Abrigo provisório,count
+Fundações,6,"CONCRETO FCK = 15MPA, TRAÇO 1:3,4:3,5 (CIMENTO/ AREIA MÉDIA/ BRITA 1)  - PREPARO MANUAL",cubicmeter
+Fundações,7,Fôrma de madeira interna,squaremeter
+Fundações,8,"Armadura de aço para estruturas em geral, CA-50,",kilogram
+Fundações,9,"Transporte, lançamento, adensamento e acabamento do concreto",cubicmeter
+Estrutura (Laje do 1° Piso),6,"CONCRETO FCK = 15MPA, TRAÇO 1:3,4:3,5 (CIMENTO/ AREIA MÉDIA/ BRITA 1)  - PREPARO MANUAL",cubicmeter
+Estrutura (Laje do 1° Piso),10,"Fôrma com chapa compensada plastificada, e = 12 mm,",squaremeter
+Estrutura (Laje do 1° Piso),8,"Armadura de aço para estruturas em geral, CA-50,",kilogram
+Estrutura (Laje do 1° Piso),9,"Transporte, lançamento, adensamento e acabamento do concreto",cubicmeter
+Estrutura (Pilares),6,"CONCRETO FCK = 15MPA, TRAÇO 1:3,4:3,5 (CIMENTO/ AREIA MÉDIA/ BRITA 1)  - PREPARO MANUAL",cubicmeter
+Estrutura (Pilares),10,"Fôrma com chapa compensada plastificada, e = 12 mm,",squaremeter
+Estrutura (Pilares),8,"Armadura de aço para estruturas em geral, CA-50,",kilogram
+Estrutura (Pilares),9,"Transporte, lançamento, adensamento e acabamento do concreto",cubicmeter
+Estrutura (Vigas),6,"CONCRETO FCK = 15MPA, TRAÇO 1:3,4:3,5 (CIMENTO/ AREIA MÉDIA/ BRITA 1)  - PREPARO MANUAL",cubicmeter
+Estrutura (Vigas),10,"Fôrma com chapa compensada plastificada, e = 12 mm,",squaremeter
+Estrutura (Vigas),8,"Armadura de aço para estruturas em geral, CA-50,",kilogram
+Estrutura (Vigas),9,"Transporte, lançamento, adensamento e acabamento do concreto",cubicmeter
+Alvenaria,11,"ALVENARIA DE VEDAÇÃO DE BLOCOS CERÂMICOS FURADOS NA HORIZONTAL DE 14X9X19CM (ESPESSURA 14CM, BLOCO DEITADO) DE PAREDES COM ÁREA LÍQUIDA MAIOR OU IGUAL A 6M² COM VÃOS E ARGAMASSA DE ASSENTAMENTO COM PREPARO MANUAL. AF_06/2014",squaremeter
+Esquadrias,12,"Janela de alumínio de correr, 3 FOLHAS, fixação com argamassa, com vidros",count
+Esquadrias,13,"CAIXILHO FIXO, DE ALUMINIO, PARA VIDRO",squaremeter
+Esquadrias,14,"PORTA DE MADEIRA FRISADA, SEMI-OCA (LEVE OU MÉDIA), 80X210CM, ESPESSURA DE 3,5CM, INCLUSO DOBRADIÇAS - FORNECIMENTO E INSTALAÇÃO",count
+Cobertura,15,ESTRUTURA METALICA EM ACO ESTRUTURAL PERFIL ”I” 6’’ X 3 3/8’’,kilogram
+Cobertura,16,"TELHAMENTO COM TELHA DE AÇO/ALUMÍNIO E = 0,5 MM, COM ATÉ 2 ÁGUAS, INCLUSO IÇAMENTO. AF_07/2019",squaremeter
+Limpeza e entrega,17,Limpeza geral da edificação,squaremeter

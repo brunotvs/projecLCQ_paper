@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Workbook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://download.autodesk.com/us/navisworks/schemas/nw-TakeoffConfiguration-10.0.xsd" xmlns="">
+			<GlobalConfiguration>
+				<ConfigureFileType>ItemResources</ConfigureFileType>
+				<UnitsSystem>Metric</UnitsSystem>
+				<Currency>
+					<Name>real</Name>
+					<Code>BRL</Code>
+					<Symbol>R$</Symbol>
+				</Currency>
+				<Column Name="Object">
+					<Type>String</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0" />
+					<Value varies="1" />
+					<Units varies="0" group="any" />
+				</Column>
+				<Column Name="Description1">
+					<Type>String</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0" />
+					<Value varies="1" />
+					<Units varies="0" group="any" />
+				</Column>
+				<Column Name="Description2">
+					<Type>String</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0" />
+					<Value varies="1" />
+					<Units varies="0" group="any" />
+				</Column>
+				<Column Name="ModelLength">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0" />
+					<Value varies="1" />
+					<Units varies="0" group="length">meter</Units>
+				</Column>
+				<Column Name="ModelWidth">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0" />
+					<Value varies="1" />
+					<Units varies="0" group="length">meter</Units>
+				</Column>
+				<Column Name="ModelThickness">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0" />
+					<Value varies="1" />
+					<Units varies="0" group="length">meter</Units>
+				</Column>
+				<Column Name="ModelHeight">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0" />
+					<Value varies="1" />
+					<Units varies="0" group="length">meter</Units>
+				</Column>
+				<Column Name="ModelPerimeter">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0" />
+					<Value varies="1" />
+					<Units varies="0" group="length">meter</Units>
+				</Column>
+				<Column Name="ModelArea">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0" />
+					<Value varies="1" />
+					<Units varies="0" group="area">squaremeter</Units>
+				</Column>
+				<Column Name="ModelVolume">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0" />
+					<Value varies="1" />
+					<Units varies="0" group="volume">cubicmeter</Units>
+				</Column>
+				<Column Name="ModelWeight">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0" />
+					<Value varies="1" />
+					<Units varies="0" group="weight">kilogram</Units>
+				</Column>
+				<Column Name="ModelDistance">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0" />
+					<Value varies="1" />
+					<Units varies="1" group="length">kilometer</Units>
+				</Column>
+				<Column Name="ModelTaskType">
+					<Type>String</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0" />
+					<Value varies="1" />
+					<Units varies="0" group="dimensionless" />
+				</Column>
+				<Column Name="Length">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelLength</Formula>
+					<Value varies="1" />
+					<Units varies="1" group="length">meter</Units>
+				</Column>
+				<Column Name="Width">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelWidth</Formula>
+					<Value varies="1" />
+					<Units varies="1" group="length">meter</Units>
+				</Column>
+				<Column Name="Thickness">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelThickness</Formula>
+					<Value varies="1" />
+					<Units varies="1" group="length">meter</Units>
+				</Column>
+				<Column Name="Height">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelHeight</Formula>
+					<Value varies="1" />
+					<Units varies="1" group="length">meter</Units>
+				</Column>
+				<Column Name="Perimeter">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelPerimeter</Formula>
+					<Value varies="1" />
+					<Units varies="1" group="length">meter</Units>
+				</Column>
+				<Column Name="Area">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelArea</Formula>
+					<Value varies="1" />
+					<Units varies="1" group="area">squaremeter</Units>
+				</Column>
+				<Column Name="Volume">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelVolume</Formula>
+					<Value varies="1" />
+					<Units varies="1" group="volume">cubicmeter</Units>
+				</Column>
+				<Column Name="Weight">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelWeight</Formula>
+					<Value varies="1" />
+					<Units varies="1" group="weight">kilogram</Units>
+				</Column>
+				<Column Name="Distance">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelDistance</Formula>
+					<Value varies="1" />
+					<Units varies="1" group="length">kilometer</Units>
+				</Column>
+				<Column Name="TaskType">
+					<Type>String</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelTaskType</Formula>
+					<Value varies="1" />
+					<Units varies="0" group="dimensionless" />
+				</Column>
+				<Column Name="Count">
+					<Type>Number</Type>
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+					<Value varies="1" />
+					<Units varies="0" group="any">count</Units>
+				</Column>
+				<Column Name="PrimaryQuantity">
+					<Type>Number</Type>
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+					<Value varies="1" />
+					<Units varies="1" group="any" />
+				</Column>
+				<Column Name="MyVar">
+					<Type>String</Type>
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+					<Value varies="1" />
+					<Units varies="0" group="dimensionless" />
+				</Column>
+				<Column Name="Coef">
+					<Type>Number</Type>
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+					<Value varies="1" />
+					<Units varies="0" group="dimensionless" />
+				</Column>
+				<Column Name="Cost">
+					<Type>Number</Type>
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+					<Value varies="1" />
+					<Units varies="0" group="currency">currency</Units>
+				</Column>
+			</GlobalConfiguration>
+			<Table Name="ObjectResource">
+				<ColumnRef Name="Object" />
+				<ColumnRef Name="Description1" />
+				<ColumnRef Name="Description2" />
+				<ColumnRef Name="ModelLength" />
+				<ColumnRef Name="ModelWidth" />
+				<ColumnRef Name="ModelThickness" />
+				<ColumnRef Name="ModelHeight" />
+				<ColumnRef Name="ModelPerimeter" />
+				<ColumnRef Name="ModelArea" />
+				<ColumnRef Name="ModelVolume" />
+				<ColumnRef Name="ModelWeight" />
+				<ColumnRef Name="ModelDistance" />
+				<ColumnRef Name="Length">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Width">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Thickness">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Height">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Perimeter">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Area">
+					<Formula varies="1" />
+					<Units varies="1" group="area" />
+				</ColumnRef>
+				<ColumnRef Name="Volume">
+					<Formula varies="1" />
+					<Units varies="1" group="volume" />
+				</ColumnRef>
+				<ColumnRef Name="Weight">
+					<Formula varies="1" />
+					<Units varies="1" group="weight" />
+				</ColumnRef>
+				<ColumnRef Name="Distance">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Count">
+					<Purpose>Calculation</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="PrimaryQuantity">
+					<Purpose>Calculation</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Cost">
+					<Purpose>Calculation</Purpose>
+					<Units varies="0" group="currency" />
+				</ColumnRef>
+				<ColumnRef Name="Coef">
+					<Purpose>Calculation</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="ModelTaskType" />
+				<ColumnRef Name="TaskType">
+					<Formula varies="1" />
+				</ColumnRef>
+			</Table>
+			<Table Name="StepResource">
+				<ColumnRef Name="Coef" />
+				<ColumnRef Name="Cost">
+					<Units varies="0" group="currency" />
+				</ColumnRef>
+				<ColumnRef Name="Length">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Width">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Thickness">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Height">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Perimeter">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Area">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+					<Units varies="1" group="area" />
+				</ColumnRef>
+				<ColumnRef Name="Distance">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Volume">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+					<Units varies="1" group="volume" />
+				</ColumnRef>
+				<ColumnRef Name="Weight">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+					<Units varies="1" group="weight" />
+				</ColumnRef>
+				<ColumnRef Name="Count" />
+				<ColumnRef Name="PrimaryQuantity" />
+				<ColumnRef Name="TaskType">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1" />
+				</ColumnRef>
+			</Table>
+			<Table Name="ObjectStep">
+				<ColumnRef Name="Object" />
+				<ColumnRef Name="ModelLength" />
+				<ColumnRef Name="ModelWidth" />
+				<ColumnRef Name="ModelThickness" />
+				<ColumnRef Name="ModelHeight" />
+				<ColumnRef Name="ModelPerimeter" />
+				<ColumnRef Name="ModelArea" />
+				<ColumnRef Name="ModelVolume" />
+				<ColumnRef Name="ModelWeight" />
+				<ColumnRef Name="ModelDistance" />
+				<ColumnRef Name="Length">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Width">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Thickness">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Height">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Perimeter">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Area">
+					<Formula varies="1" />
+					<Units varies="1" group="area" />
+				</ColumnRef>
+				<ColumnRef Name="Volume">
+					<Formula varies="1" />
+					<Units varies="1" group="volume" />
+				</ColumnRef>
+				<ColumnRef Name="Weight">
+					<Formula varies="1" />
+					<Units varies="1" group="weight" />
+				</ColumnRef>
+				<ColumnRef Name="Distance">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="ModelTaskType" />
+				<ColumnRef Name="TaskType">
+					<Formula varies="1" />
+				</ColumnRef>
+			</Table>
+			<Table Name="Step">
+				<ColumnRef Name="Length">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Width">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Thickness">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Height">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Perimeter">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Area">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Volume">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Weight">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Distance">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="TaskType">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+			</Table>
+			<Table Name="Object">
+				<ColumnRef Name="Object" />
+				<ColumnRef Name="Description1" />
+				<ColumnRef Name="Description2" />
+				<ColumnRef Name="ModelLength" />
+				<ColumnRef Name="ModelWidth" />
+				<ColumnRef Name="ModelThickness" />
+				<ColumnRef Name="ModelHeight" />
+				<ColumnRef Name="ModelPerimeter" />
+				<ColumnRef Name="ModelArea" />
+				<ColumnRef Name="ModelVolume" />
+				<ColumnRef Name="ModelWeight" />
+				<ColumnRef Name="ModelDistance" />
+				<ColumnRef Name="Length">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Width">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Thickness">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Height">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Perimeter">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Area">
+					<Formula varies="1" />
+					<Units varies="1" group="area" />
+				</ColumnRef>
+				<ColumnRef Name="Volume">
+					<Formula varies="1" />
+					<Units varies="1" group="volume" />
+				</ColumnRef>
+				<ColumnRef Name="Weight">
+					<Formula varies="1" />
+					<Units varies="1" group="weight" />
+				</ColumnRef>
+				<ColumnRef Name="Distance">
+					<Formula varies="1" />
+					<Units varies="1" group="length" />
+				</ColumnRef>
+				<ColumnRef Name="Count">
+					<Purpose>Calculation</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="PrimaryQuantity">
+					<Purpose>Calculation</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="ModelTaskType" />
+				<ColumnRef Name="TaskType">
+					<Formula varies="1" />
+				</ColumnRef>
+			</Table>
+			<Table Name="Item">
+				<ColumnRef Name="Length">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Width">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Thickness">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Height">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Perimeter">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Area">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Volume">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Weight">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Distance">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Count">
+					<Formula varies="1">=1</Formula>
+				</ColumnRef>
+				<ColumnRef Name="PrimaryQuantity" />
+				<ColumnRef Name="TaskType">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="MyVar" />
+			</Table>
+			<Table Name="ItemGroup">
+				<ColumnRef Name="TaskType">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+			</Table>
+			<Table Name="Resource">
+				<ColumnRef Name="Coef" />
+				<ColumnRef Name="Cost" />
+				<ColumnRef Name="Length">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Width">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Thickness">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Height">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Perimeter">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Area">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Distance">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Volume">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Weight">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Count">
+					<Formula varies="1">=1</Formula>
+				</ColumnRef>
+				<ColumnRef Name="PrimaryQuantity" />
+				<ColumnRef Name="TaskType">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+			</Table>
+			<Table Name="ResourceGroup" />
+		</Workbook>
+	

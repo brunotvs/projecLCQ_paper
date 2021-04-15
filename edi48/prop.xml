@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TakeoffProperties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://download.autodesk.com/us/navisworks/schemas/nw-TakeoffConfiguration-10.0.xsd">
+	<PropertyGroup Name="GeneralProperties">
+		<Property Name="ModelLength">
+			<UnitsGroup>length</UnitsGroup>
+			<ImperialUnits>feet</ImperialUnits>
+			<MetricUnits>meter</MetricUnits>
+			<Selected>1</Selected>
+		</Property>
+		<Property Name="ModelWidth">
+			<UnitsGroup>length</UnitsGroup>
+			<ImperialUnits>feet</ImperialUnits>
+			<MetricUnits>meter</MetricUnits>
+			<Selected>1</Selected>
+		</Property>
+		<Property Name="ModelThickness">
+			<UnitsGroup>length</UnitsGroup>
+			<ImperialUnits>feet</ImperialUnits>
+			<MetricUnits>meter</MetricUnits>
+			<Selected>1</Selected>
+		</Property>
+		<Property Name="ModelHeight">
+			<UnitsGroup>length</UnitsGroup>
+			<ImperialUnits>feet</ImperialUnits>
+			<MetricUnits>meter</MetricUnits>
+			<Selected>1</Selected>
+		</Property>
+		<Property Name="ModelPerimeter">
+			<UnitsGroup>length</UnitsGroup>
+			<ImperialUnits>feet</ImperialUnits>
+			<MetricUnits>meter</MetricUnits>
+			<Selected>1</Selected>
+		</Property>
+		<Property Name="ModelArea">
+			<UnitsGroup>area</UnitsGroup>
+			<ImperialUnits>squarefeet</ImperialUnits>
+			<MetricUnits>squaremeter</MetricUnits>
+			<Selected>1</Selected>
+		</Property>
+		<Property Name="ModelVolume">
+			<UnitsGroup>volume</UnitsGroup>
+			<ImperialUnits>cubicfeet</ImperialUnits>
+			<MetricUnits>cubicmeter</MetricUnits>
+			<Selected>1</Selected>
+		</Property>
+		<Property Name="ModelWeight">
+			<UnitsGroup>weight</UnitsGroup>
+			<ImperialUnits>pound</ImperialUnits>
+			<MetricUnits>kilogram</MetricUnits>
+			<Selected>1</Selected>
+		</Property>
+	</PropertyGroup>
+	<PropertyGroup Name="Extra Properties">
+		<Property Name="ModelDistance">
+			<UnitsGroup>length</UnitsGroup>
+			<ImperialUnits>feet</ImperialUnits>
+			<MetricUnits>meter</MetricUnits>
+			<Selected>1</Selected>
+		</Property>
+		<Property Name="ModelTaskType">
+			<UnitsGroup>dimensionless</UnitsGroup>
+			<ImperialUnits />
+			<MetricUnits />
+			<Selected>1</Selected>
+		</Property>
+	</PropertyGroup>
+</TakeoffProperties>

@@ -1,0 +1,82 @@
+id,nome,tipo
+1,"Sondagem a percussão (diâmetro: 2 1/2"") m 1,00",Material
+2,"TECNICO EM SONDAGEM H CR 19,96",Material
+3,Carpinteiro,Trabalho
+4,Servente,Trabalho
+5,Prego - kg,Material
+6,Arame - kg,Material
+7,Pontalete,Material
+8,Tábua,Material
+9,Ajudante de encanador,Trabalho
+10,Encanador,Trabalho
+11,Pedreiro,Trabalho
+12,Areia média,Material
+13,Hidrômetro,Material
+14,Bacia de louça ,Material
+15,Ajudante de eletricista,Trabalho
+16,Eletricista,Trabalho
+17,Fio isolado em PVC,Material
+18,Caixa em chapa de aço ,Material
+19,Poste para entrada,Material
+20,Carpinteiro ,Trabalho
+21,Chapa resinada,Material
+22,Viga de madeira,Material
+23,Telha de fibrocimento,Material
+24,Barra de Aço ,Material
+25,Concreto Estrutural,Material
+26,Pedra rachão,Material
+27,Argamassa de cimento ,Material
+28,Ajudante de Carpinteiro,Trabalho
+29,Chapa compensada,Material
+30,Sarrafo,Material
+31,Desmoldante,Material
+32,Ajudante de armador,Trabalho
+33,Armador,Trabalho
+34,Espaçador ,Material
+35,Vibrador de imersão,Material
+36,Cura 7 dias,Material
+37,Tijolo furado,Material
+38,Cola de PVA,Material
+39,Pedreiro ,Trabalho
+40,Argamassa de cal,Material
+41,Areia lavada,Material
+42,Portinhola,Material
+43,Betoneira,Material
+44,Registro de gaveta,Material
+45,Tubo de aço ,Material
+46,Fita de vedação,Material
+47,Torneira de pressão,Material
+48,Ajudante de eletricista ,Trabalho
+49,Eletroduto de aço,Material
+50,Caixa de ligação de PVC,Material
+51,Espelho para caixa,Material
+52,Caixa estampada em chapa ,Material
+53,Madeira,Material
+54,Ajudante de telhadista,Trabalho
+55,Telhadista ,Trabalho
+56,Telha cerâmica,Material
+57,"Areia média - Posto Jazida/Fornecedor (Retirado na jazida, SEM TRANSPORTE)",Material
+58,Cimento Portland Composto CP II-32,Material
+59,"Pedra britada N. 1 (9,5 a 19 mm) Posto pedreira/Fornecedor, SEM FRETE",Material
+60,Servente com encargos complementares,Trabalho
+61,"JANELA DE CORRER EM ALUMINIO, VENEZIANA, 120 X 120 CM (A X L), 3 FLS (2 VENEZIANAS E 1 VIDRO), SEM BANDEIRA, ACABAMENTO ACET OU BRILHANTE, BATENTE/REQUADRO DE 6 A 14 CM, COM VIDRO, SEM GUARNICAO/ALIZAR",Material
+62,PEDREIRO COM ENCARGOS COMPLEMENTARES,Trabalho
+63,"ARGAMASSA TRAÇO 1:3 (EM VOLUME DE CIMENTO E AREIA MÉDIA ÚMIDA), PREPARO MANUAL. AF_08/2019",Material
+64,"JANELA FIXA EM ALUMINIO, 60  X 80 CM (A X L), BATENTE/REQUADRO DE 3 A 14 CM, COM VIDRO, SEM GUARNICAO/ALIZAR",Material
+65,SERRALHEIRO COM ENCARGOS COMPLEMENTARES,Trabalho
+66,"ARGAMASSA TRAÇO 1:0,5:4,5 (EM VOLUME DE CIMENTO, CAL E AREIA MÉDIA ÚMIDA) PARA ASSENTAMENTO DE ALVENARIA, PREPARO MANUAL. AF_08/2019",Material
+67,"DOBRADICA EM ACO/FERRO, 3 1/2"" X  3"", E= 1,9  A 2 MM, COM ANEL,  CROMADO OU ZINCADO, TAMPA BOLA, COM PARAFUSOS",Material
+68,"PORTA DE MADEIRA, FOLHA MEDIA (NBR 15930) DE 80 X 210 CM, E = 35 MM, NUCLEO SARRAFEADO, CAPA FRISADA EM HDF, ACABAMENTO MELAMINICO EM PADRAO MADEIRA",Material
+69,"PARAFUSO ROSCA SOBERBA ZINCADO CABECA CHATA FENDA SIMPLES 3,5 X 25 MM (1 "")",Material
+70,CARPINTEIRO DE ESQUADRIA COM ENCARGOS COMPLEMENTARES,Trabalho
+71,"BLOCO CERAMICO (ALVENARIA VEDACAO), 6 FUROS, DE 9 X 14 X 19 CM",Material
+72,"TELA DE ACO SOLDADA GALVANIZADA/ZINCADA PARA ALVENARIA, FIO  D = *1,20 A 1,70* MM, MALHA 15 X 15 MM, (C X L) *50 X 12* CM",Material
+73,"PINO DE ACO COM FURO, HASTE = 27 MM (ACAO DIRETA)",Material
+74,"ARGAMASSA TRAÇO 1:2:8 (EM VOLUME DE CIMENTO, CAL E AREIA MÉDIA ÚMIDA) PARA EMBOÇO/MASSA ÚNICA/ASSENTAMENTO DE ALVENARIA DE VEDAÇÃO, PREPARO MANUAL. AF_08/2019",Material
+75,"PERFIL ""I"" DE ACO LAMINADO, ""I"" 152 X 22",Material
+76,"SOLDA DE TOPO EM CHAPA/PERFIL/TUBO DE AÇO CHANFRADO, ESPESSURA=1/4''. AF_06/2018",Trabalho
+77,"TELHA DE ACO ZINCADO TRAPEZOIDAL, A = *40* MM, E = 0,5 MM, SEM PINTURA",Material
+78,"HASTE RETA PARA GANCHO DE FERRO GALVANIZADO, COM ROSCA 1/4 "" X 30 CM PARA FIXACAO DE TELHA METALICA, INCLUI PORCA E ARRUELAS DE VEDACAO",Material
+79,TELHADISTA COM ENCARGOS COMPLEMENTARES,Trabalho
+80,"GUINCHO ELÉTRICO DE COLUNA, CAPACIDADE 400 KG, COM MOTO FREIO, MOTOR TRIFÁSICO DE 1,25 CV - CHP DIURNO. AF_03/2016",Trabalho
+81,"GUINCHO ELÉTRICO DE COLUNA, CAPACIDADE 400 KG, COM MOTO FREIO, MOTOR TRIFÁSICO DE 1,25 CV - CHI DIURNO. AF_03/2016",Trabalho
